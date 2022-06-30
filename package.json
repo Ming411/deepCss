@@ -1,0 +1,25 @@
+{
+  "name": "deepCss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass day1/sass/main.scss day1/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ming411/deepCss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ming411/deepCss/issues"
+  },
+  "homepage": "https://github.com/Ming411/deepCss#readme"
+}

@@ -1,0 +1,31 @@
+$color-parmary-light: #7ed56f;
+$color-parmary-dark: #28b458;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  /* 这里我们设置的基础值是10px,而浏览器默认是16px */
+  /* font-size: 10px; */
+  /* 为了在用户手动改变字体大小时，设置的其他字体自动适配，可以将其设置为百分比(10/16) */
+  font-size: 62.5%;
+}
+body {
+  /* 统一子元素的样式，可继承样式 */
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  color: #777;
+  /* 以上元素均可继承 */
+  padding: 3rem;
+  box-sizing: border-box;
+}
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+  display: none;
+}
